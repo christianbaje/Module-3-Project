@@ -4,13 +4,16 @@ MyToken is a  smart contract that adheres to the ERC20 standard and has been dep
 
 ## How to Run
 
-Go to https://remix.ethereum.org/.
+To set up the development environment for Ethereum projects, follow these steps:
 
-Connect Remix to the local network.
-
-Create a new Solidity file and paste the code.
-
-Compile and Deploy the contract from Remix by clicking the "Deploy & Run Transactions" tab.
+Download project from https://hardhat.org/tutorial/boilerplate-project
+Run in VS code
+Install npm packages: Run "npm install" in the terminal.
+Install remixd: Execute "npm install -g @remix-project/remixd".
+Start remixd server and share a local directory with Remix IDE: Use "remixd -s ./ --remix-ide https://remix.ethereum.org".
+Install OpenZeppelin Contracts library: Execute "npm install @openzeppelin/contracts".
+Run Hardhat package and start a local Ethereum development network: Open another terminal and run "npx hardhat node".
+Open remix and use localhost
 
 ## MINTING
 
